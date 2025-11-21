@@ -1,0 +1,33 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "DaltonFarm0"
+theme = "hugo-theme-m10c"
+
+canonifyURLs = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  author = "SysAdmin Community"
+  description = "Events, blogs, and resources for local systems administrators."
+  background_color_class = "bg-black"
+  recent_posts_number = 5
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url  = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Events"
+    url  = "/events/"
+    weight = 3
