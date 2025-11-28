@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SoftwareUpdates on DaltonFarm0</title>
-    <link>https://ckdalton01.github.io/tags/softwareupdates/</link>
+    <link>http://localhost:1313/tags/softwareupdates/</link>
     <description>Recent content in SoftwareUpdates on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ckdalton01.github.io/tags/softwareupdates/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/softwareupdates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configuration Manager Software Updates Error 0x800F0831</title>
-      <link>https://ckdalton01.github.io/blog/suerror0x800f0831/</link>
+      <link>http://localhost:1313/blog/suerror0x800f0831/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://ckdalton01.github.io/blog/suerror0x800f0831/</guid>
-      <description>&lt;h1 id=&#34;configuration-manager-software-updates-error-0x800f0831&#34;&gt;Configuration Manager: Software Updates Error 0x800F0831&lt;/h1&gt;&#xA;&lt;p&gt;I came across this issue in Configuration Manager while attempting to patch a Server OS.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/image-5.png&#34; alt=&#34;Update failure screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The error:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Failed to Install Updates — 0x800F0831 (Unknown Error -2146498511)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;occurs when a &lt;strong&gt;pre-requisite update is missing&lt;/strong&gt; from the system.&lt;/p&gt;&#xA;&lt;p&gt;To resolve this, we must identify and install the missing prerequisite.&lt;/p&gt;&#xA;&lt;p&gt;Below is an example from one of my Windows Server 2012 systems where two monthly updates repeatedly failed to install — even after manual retries.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/suerror0x800f0831/</guid>
+      <description>&lt;h1 id=&#34;configuration-manager-software-updates-error-0x800f0831&#34;&gt;Configuration Manager: Software Updates Error 0x800F0831&lt;/h1&gt;&#xA;&lt;p&gt;I came across this issue in Configuration Manager while attempting to patch a Server OS.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image-5.png&#34; alt=&#34;Update failure screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The error:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Failed to Install Updates — 0x800F0831 (Unknown Error -2146498511)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;occurs when a &lt;strong&gt;pre-requisite update is missing&lt;/strong&gt; from the system.&lt;/p&gt;&#xA;&lt;p&gt;To resolve this, we must identify and install the missing prerequisite.&lt;/p&gt;&#xA;&lt;p&gt;Below is an example from one of my Windows Server 2012 systems where two monthly updates repeatedly failed to install — even after manual retries.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
