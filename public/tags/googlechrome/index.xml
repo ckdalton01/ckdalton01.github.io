@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GoogleChrome on DaltonFarm0</title>
-    <link>https://example.org/tags/googlechrome/</link>
+    <link>https://ckdalton01.github.io/tags/googlechrome/</link>
     <description>Recent content in GoogleChrome on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 May 2025 21:31:21 -0700</lastBuildDate>
-    <atom:link href="https://example.org/tags/googlechrome/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ckdalton01.github.io/tags/googlechrome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Managing Google Chrome Relaunch Notifications via Windows Registry</title>
-      <link>https://example.org/blog/googlechromeclose/</link>
+      <link>https://ckdalton01.github.io/blog/googlechromeclose/</link>
       <pubDate>Sun, 25 May 2025 21:31:21 -0700</pubDate>
-      <guid>https://example.org/blog/googlechromeclose/</guid>
+      <guid>https://ckdalton01.github.io/blog/googlechromeclose/</guid>
       <description>&lt;p&gt;Keeping browsers up to date is crucial for security and performance, especially in enterprise environments. Google Chrome offers a way for IT administrators to enforce or recommend browser restarts after updates using Windows Registry keys. This ensures users are running the latest version without unnecessary delays.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;&#xA;&lt;p&gt;Chrome supports two registry paths for policy configuration:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;HKEY_CURRENT_USER\Software\Policies\Google\Chrome&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These paths allow you to define policies that control Chrome’s behavior. One such policy is &lt;strong&gt;RelaunchNotification&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

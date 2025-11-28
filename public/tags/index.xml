@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DaltonFarm0</title>
-    <link>https://example.org/tags/</link>
+    <link>https://ckdalton01.github.io/tags/</link>
     <description>Recent content in Tags on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Nov 2025 10:51:30 -0700</lastBuildDate>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ckdalton01.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ADR</title>
-      <link>https://example.org/tags/adr/</link>
+      <link>https://ckdalton01.github.io/tags/adr/</link>
       <pubDate>Thu, 20 Nov 2025 10:51:30 -0700</pubDate>
-      <guid>https://example.org/tags/adr/</guid>
+      <guid>https://ckdalton01.github.io/tags/adr/</guid>
       <description></description>
     </item>
     <item>
       <title>ConfigMgr</title>
-      <link>https://example.org/tags/configmgr/</link>
+      <link>https://ckdalton01.github.io/tags/configmgr/</link>
       <pubDate>Thu, 20 Nov 2025 10:51:30 -0700</pubDate>
-      <guid>https://example.org/tags/configmgr/</guid>
+      <guid>https://ckdalton01.github.io/tags/configmgr/</guid>
       <description></description>
     </item>
     <item>
       <title>PatchMyPC</title>
-      <link>https://example.org/tags/patchmypc/</link>
+      <link>https://ckdalton01.github.io/tags/patchmypc/</link>
       <pubDate>Thu, 20 Nov 2025 10:51:30 -0700</pubDate>
-      <guid>https://example.org/tags/patchmypc/</guid>
+      <guid>https://ckdalton01.github.io/tags/patchmypc/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>https://example.org/tags/windows/</link>
+      <link>https://ckdalton01.github.io/tags/windows/</link>
       <pubDate>Thu, 20 Nov 2025 10:51:30 -0700</pubDate>
-      <guid>https://example.org/tags/windows/</guid>
+      <guid>https://ckdalton01.github.io/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>GoogleChrome</title>
-      <link>https://example.org/tags/googlechrome/</link>
+      <link>https://ckdalton01.github.io/tags/googlechrome/</link>
       <pubDate>Sun, 25 May 2025 21:31:21 -0700</pubDate>
-      <guid>https://example.org/tags/googlechrome/</guid>
+      <guid>https://ckdalton01.github.io/tags/googlechrome/</guid>
       <description></description>
     </item>
     <item>
       <title>Intune</title>
-      <link>https://example.org/tags/intune/</link>
+      <link>https://ckdalton01.github.io/tags/intune/</link>
       <pubDate>Mon, 27 Jan 2025 21:16:26 -0700</pubDate>
-      <guid>https://example.org/tags/intune/</guid>
+      <guid>https://ckdalton01.github.io/tags/intune/</guid>
       <description></description>
     </item>
     <item>
       <title>CloudAttach</title>
-      <link>https://example.org/tags/cloudattach/</link>
+      <link>https://ckdalton01.github.io/tags/cloudattach/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/cloudattach/</guid>
+      <guid>https://ckdalton01.github.io/tags/cloudattach/</guid>
       <description></description>
     </item>
     <item>
       <title>Troubleshooting</title>
-      <link>https://example.org/tags/troubleshooting/</link>
+      <link>https://ckdalton01.github.io/tags/troubleshooting/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/troubleshooting/</guid>
+      <guid>https://ckdalton01.github.io/tags/troubleshooting/</guid>
       <description></description>
     </item>
     <item>
       <title>SoftwareUpdates</title>
-      <link>https://example.org/tags/softwareupdates/</link>
+      <link>https://ckdalton01.github.io/tags/softwareupdates/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/softwareupdates/</guid>
+      <guid>https://ckdalton01.github.io/tags/softwareupdates/</guid>
       <description></description>
     </item>
   </channel>

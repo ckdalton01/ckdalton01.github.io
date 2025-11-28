@@ -6,14 +6,14 @@
     <description>Recent content in Azure on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Nov 2025 16:11:42 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 27 Nov 2025 21:01:30 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ConfigMgrMP Prereqs</title>
-      <link>http://localhost:1313/blog/configmgrmp-prereqs/</link>
-      <pubDate>Thu, 27 Nov 2025 16:11:42 -0700</pubDate>
-      <guid>http://localhost:1313/blog/configmgrmp-prereqs/</guid>
-      <description></description>
+      <title>AADConnectResultStatus</title>
+      <link>http://localhost:1313/blog/aadconnectresultstatus/</link>
+      <pubDate>Thu, 27 Nov 2025 21:01:30 -0700</pubDate>
+      <guid>http://localhost:1313/blog/aadconnectresultstatus/</guid>
+      <description>&lt;p&gt;While running &lt;strong&gt;Microsoft Entra Connect Sync&lt;/strong&gt;, I encountered a persistent configuration error that refused to clear:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“Retrying this operation may help resolve the issue.”&lt;br&gt;&#xA;&lt;em&gt;(Spoiler: it won’t.)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Everything looked correct during setup, but the sync would not complete. The issue turned out to be related to the &lt;strong&gt;synchronization service account&lt;/strong&gt; Entra Connect tries to create.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-reviewing-the-logs&#34;&gt;🔍 Reviewing the Logs&lt;/h2&gt;&#xA;&lt;p&gt;The wizard errors lacked detail, but the logs provided the necessary clue:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
