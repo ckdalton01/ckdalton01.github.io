@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WSUS on DaltonFarm0</title>
+    <link>http://localhost:1313/tags/wsus/</link>
+    <description>Recent content in WSUS on DaltonFarm0</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2025 11:22:26 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wsus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Query For WSUS Updates</title>
+      <link>http://localhost:1313/blog/sqlqueryforwsusupdates/</link>
+      <pubDate>Fri, 21 Feb 2025 11:22:26 -0700</pubDate>
+      <guid>http://localhost:1313/blog/sqlqueryforwsusupdates/</guid>
+      <description>&lt;h2 id=&#34;wsus-sql-cleanup--update-health-query&#34;&gt;WSUS SQL Cleanup &amp;amp; Update Health Query&lt;/h2&gt;&#xA;&lt;p&gt;When working with WSUS—especially in large ConfigMgr/SCCM environments—database bloat and superseded updates can cause synchronization failures, ADR issues, and overall sluggish console performance. Administrators often need deeper visibility into the WSUS database to understand:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How many updates are currently stored&lt;/li&gt;&#xA;&lt;li&gt;Which updates are superseded&lt;/li&gt;&#xA;&lt;li&gt;Whether superseded updates have been properly declined&lt;/li&gt;&#xA;&lt;li&gt;Whether WSUS has accumulated a backlog of &lt;em&gt;obsolete&lt;/em&gt; updates that require cleanup&lt;/li&gt;&#xA;&lt;li&gt;Whether a specific update is declined in WSUS (useful for ConfigMgr troubleshooting)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The following SQL query is commonly used when troubleshooting WSUS optimization issues, ADR failures, and Patch Tuesday cleanup workflows.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

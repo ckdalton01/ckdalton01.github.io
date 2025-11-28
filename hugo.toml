@@ -1,0 +1,37 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'DaltonFarm0'
+
+
+theme = "hugo-theme-m10c"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[params]
+  author = "Chris Dalton"
+  description = "Professional Log Reader, amature at everything else."
+  menu_item_separator = " -- "
+  [[params.social]]
+    icon = "brand-github"
+    name = "Github"
+    url = "https://github.com/ckdalton01"
+  [[params.social]]
+    icon = "brand-linkedin"
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/christopher-dalton-552a2955"
+

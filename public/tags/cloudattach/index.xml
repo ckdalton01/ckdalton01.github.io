@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CloudAttach on DaltonFarm0</title>
+    <link>https://example.org/tags/cloudattach/</link>
+    <description>Recent content in CloudAttach on DaltonFarm0</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/cloudattach/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration Manager Cloud Attach Error: (401) Unauthorized</title>
+      <link>https://example.org/blog/cloudattach401error/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/blog/cloudattach401error/</guid>
+      <description>&lt;h1 id=&#34;configmgr-cloud-attach-error-401-unauthorized&#34;&gt;ConfigMgr Cloud Attach Error: (401) Unauthorized&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;CMGatewayNotificationWorker&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Warning][CMGatewayNotificationWorker][0][System.Net.WebException][0x80131509]&#xA;The remote server returned an error: (401) Unauthorized.&#xA;at Microsoft.ConfigurationManager.ServiceConnector.ExtensionMethods.d__13.MoveNext()&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I struggled with this one while setting up Co-management testing in Microsoft Configuration Manager.&lt;br&gt;&#xA;Cloud Attach completed successfully — everything looked good. I entered my Entra ID Global Admin credentials and all indicators turned green.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;But nothing would sync.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;After reviewing the logs, I found the following repeated error in &lt;strong&gt;CMGatewayNotificationWorker.log&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/image.png&#34; alt=&#34;CMGatewayNotificationWorker 401 error&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
