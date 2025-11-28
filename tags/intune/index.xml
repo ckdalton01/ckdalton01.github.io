@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intune on DaltonFarm0</title>
+    <link>https://ckdalton01.github.io/tags/intune/</link>
+    <description>Recent content in Intune on DaltonFarm0</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jan 2025 21:16:26 -0700</lastBuildDate>
+    <atom:link href="https://ckdalton01.github.io/tags/intune/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Patch My PC Update Rings</title>
+      <link>https://ckdalton01.github.io/blog/patchmypcupdaterings/</link>
+      <pubDate>Mon, 27 Jan 2025 21:16:26 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/patchmypcupdaterings/</guid>
+      <description>&lt;h1 id=&#34;patch-my-pc-portal-update-ringsexplained&#34;&gt;Patch My PC Portal Update rings explained.&lt;/h1&gt;&#xA;&lt;p&gt;I don’t like the word “demystified” because it feels like some AI slop.&lt;/p&gt;&#xA;&lt;p&gt;These patches that are released are not like Microsoft Updates where updates are released once a month on Patch Tuesday. They are released whenever the vendor sends out the update.&lt;/p&gt;&#xA;&lt;p&gt;Update rings are based on a +(Days) from when the &lt;strong&gt;VENDOR&lt;/strong&gt; releases the update.&lt;/p&gt;&#xA;&lt;p&gt;I’m going to try and explain this visually.&#xA;&lt;img src=&#34;https://ckdalton01.github.io/image-101.png&#34; alt=&#34;[image-101.png]&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Configuration Manager Cloud Attach Error: (401) Unauthorized</title>
+      <link>https://ckdalton01.github.io/blog/cloudattach401error/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://ckdalton01.github.io/blog/cloudattach401error/</guid>
+      <description>&lt;h1 id=&#34;configmgr-cloud-attach-error-401-unauthorized&#34;&gt;ConfigMgr Cloud Attach Error: (401) Unauthorized&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;CMGatewayNotificationWorker&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Warning][CMGatewayNotificationWorker][0][System.Net.WebException][0x80131509]&#xA;The remote server returned an error: (401) Unauthorized.&#xA;at Microsoft.ConfigurationManager.ServiceConnector.ExtensionMethods.d__13.MoveNext()&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I struggled with this one while setting up Co-management testing in Microsoft Configuration Manager.&lt;br&gt;&#xA;Cloud Attach completed successfully — everything looked good. I entered my Entra ID Global Admin credentials and all indicators turned green.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;But nothing would sync.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;After reviewing the logs, I found the following repeated error in &lt;strong&gt;CMGatewayNotificationWorker.log&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/image.png&#34; alt=&#34;CMGatewayNotificationWorker 401 error&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

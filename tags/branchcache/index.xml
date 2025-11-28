@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BranchCache on DaltonFarm0</title>
+    <link>http://localhost:1313/tags/branchcache/</link>
+    <description>Recent content in BranchCache on DaltonFarm0</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/branchcache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Troubleshooting Boundary Group and Content Lookup Issues in ConfigMgr</title>
+      <link>http://localhost:1313/blog/missingboundaryguid/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/missingboundaryguid/</guid>
+      <description>&lt;p&gt;I wanted to compare some of the notes from our session to what we observed on the working device we have logs for.&lt;br&gt;&#xA;Again, all of this is &lt;strong&gt;out of scope for PMPC&lt;/strong&gt;, but we can still provide insight into &lt;em&gt;where&lt;/em&gt; to look.&lt;/p&gt;&#xA;&lt;p&gt;While we reviewed a lot of things in the logs, the line that stood out the most was this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250825090432.png&#34; alt=&#34;Log snippet&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This update was &lt;strong&gt;Wireshark&lt;/strong&gt;. We confirmed it was properly signed and trusted by the device — but ultimately, the device &lt;strong&gt;could not find the content&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
