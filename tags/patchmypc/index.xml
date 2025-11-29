@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PatchMyPC on DaltonFarm0</title>
-    <link>http://localhost:1313/tags/patchmypc/</link>
+    <link>https://ckdalton01.github.io/tags/patchmypc/</link>
     <description>Recent content in PatchMyPC on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Nov 2025 10:51:30 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/patchmypc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ckdalton01.github.io/tags/patchmypc/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Configuration Manager ADR 0x87d20417 Helper Script</title>
-      <link>http://localhost:1313/blog/adr404error/</link>
+      <title>Configuration Manager ADR 0x80070194 Helper Script</title>
+      <link>https://ckdalton01.github.io/blog/adr404error/</link>
       <pubDate>Thu, 20 Nov 2025 10:51:30 -0700</pubDate>
-      <guid>http://localhost:1313/blog/adr404error/</guid>
-      <description>&lt;h1 id=&#34;404-error--cab-file-missing&#34;&gt;404 Error – .cab File Missing&lt;/h1&gt;&#xA;&lt;p&gt;Occasionally this error appears when attempting to deploy updates:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020251120194954.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is usually the result of a &lt;strong&gt;missing .cab file&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For more details, Patch My PC provides an overview of the issue:&lt;br&gt;&#xA;&lt;a href=&#34;https://patchmypc.com/kb/adr-error-0x87d20417/&#34;&gt;https://patchmypc.com/kb/adr-error-0x87d20417/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;To resolve the problem manually, follow the steps here:&lt;br&gt;&#xA;&lt;a href=&#34;https://patchmypc.com/kb/missing-cab-update/&#34;&gt;https://patchmypc.com/kb/missing-cab-update/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;automated-fix-script&#34;&gt;Automated Fix Script&lt;/h2&gt;&#xA;&lt;p&gt;While this script does not &amp;ldquo;Fix&amp;rdquo; the problem for you. You can use it to help you determine which updates are missing.&#xA;You can also use this script to automatically detect the missing .cab files.&#xA;&lt;a href=&#34;https://github.com/ckdalton01/PMPC404Updates/&#34;&gt;https://github.com/ckdalton01/PMPC404Updates/&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://ckdalton01.github.io/blog/adr404error/</guid>
+      <description>&lt;h1 id=&#34;the-cloud-file-provider-exited-unexpectedly&#34;&gt;The Cloud file provider exited unexpectedly&lt;/h1&gt;&#xA;&lt;h2 id=&#34;404-error--cab-file-missing&#34;&gt;404 Error – .cab File Missing&lt;/h2&gt;&#xA;&lt;p&gt;Occasionally this error appears when attempting to deploy updates: 0x80070194&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/Pasted%20image%2020251120194954.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is usually the result of a &lt;strong&gt;missing .cab file&lt;/strong&gt;.&#xA;If the CAB file doesn’t exist, you will be unable to download and deploy that specific update(s) where the CAB file is deleted.&lt;/p&gt;&#xA;&lt;p&gt;For more details, Patch My PC provides an overview of the issue:&lt;br&gt;&#xA;&lt;a href=&#34;https://patchmypc.com/kb/adr-error-0x87d20417/&#34;&gt;https://patchmypc.com/kb/adr-error-0x87d20417/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;To resolve the problem manually, follow the steps here:&lt;br&gt;&#xA;&lt;a href=&#34;https://patchmypc.com/kb/missing-cab-update/&#34;&gt;https://patchmypc.com/kb/missing-cab-update/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Patch My PC Update Rings</title>
-      <link>http://localhost:1313/blog/patchmypcupdaterings/</link>
+      <link>https://ckdalton01.github.io/blog/patchmypcupdaterings/</link>
       <pubDate>Mon, 27 Jan 2025 21:16:26 -0700</pubDate>
-      <guid>http://localhost:1313/blog/patchmypcupdaterings/</guid>
-      <description>&lt;h1 id=&#34;patch-my-pc-portal-update-ringsexplained&#34;&gt;Patch My PC Portal Update rings explained.&lt;/h1&gt;&#xA;&lt;p&gt;I don’t like the word “demystified” because it feels like some AI slop.&lt;/p&gt;&#xA;&lt;p&gt;These patches that are released are not like Microsoft Updates where updates are released once a month on Patch Tuesday. They are released whenever the vendor sends out the update.&lt;/p&gt;&#xA;&lt;p&gt;Update rings are based on a +(Days) from when the &lt;strong&gt;VENDOR&lt;/strong&gt; releases the update.&lt;/p&gt;&#xA;&lt;p&gt;I’m going to try and explain this visually.&#xA;&lt;img src=&#34;http://localhost:1313/image-101.png&#34; alt=&#34;[image-101.png]&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://ckdalton01.github.io/blog/patchmypcupdaterings/</guid>
+      <description>&lt;h1 id=&#34;patch-my-pc-portal-update-ringsexplained&#34;&gt;Patch My PC Portal Update rings explained.&lt;/h1&gt;&#xA;&lt;p&gt;I don’t like the word “demystified” because it feels like some AI slop.&lt;/p&gt;&#xA;&lt;p&gt;These patches that are released are not like Microsoft Updates where updates are released once a month on Patch Tuesday. They are released whenever the vendor sends out the update.&lt;/p&gt;&#xA;&lt;p&gt;Update rings are based on a +(Days) from when the &lt;strong&gt;VENDOR&lt;/strong&gt; releases the update.&lt;/p&gt;&#xA;&lt;p&gt;I’m going to try and explain this visually.&#xA;&lt;img src=&#34;https://ckdalton01.github.io/image-101.png&#34; alt=&#34;[image-101.png]&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

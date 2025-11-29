@@ -2,90 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://ckdalton01.github.io/about/</loc>
     <lastmod>2025-11-26T20:31:47-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ckdalton01.github.io/</loc>
     <lastmod>2025-11-26T20:31:47-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://ckdalton01.github.io/posts/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>https://ckdalton01.github.io/posts/my-first-post/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/adr/</loc>
+    <loc>https://ckdalton01.github.io/tags/adr/</loc>
     <lastmod>2025-11-20T10:51:30-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://ckdalton01.github.io/blog/</loc>
     <lastmod>2025-11-20T10:51:30-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/configmgr/</loc>
+    <loc>https://ckdalton01.github.io/tags/configmgr/</loc>
     <lastmod>2025-11-20T10:51:30-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/adr404error/</loc>
+    <loc>https://ckdalton01.github.io/blog/adr404error/</loc>
     <lastmod>2025-11-20T10:51:30-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/patchmypc/</loc>
+    <loc>https://ckdalton01.github.io/tags/patchmypc/</loc>
     <lastmod>2025-11-20T10:51:30-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://ckdalton01.github.io/tags/</loc>
     <lastmod>2025-11-20T10:51:30-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/windows/</loc>
+    <loc>https://ckdalton01.github.io/tags/windows/</loc>
     <lastmod>2025-11-20T10:51:30-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/branchcache/</loc>
-    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/troubleshooting/</loc>
-    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/missingboundaryguid/</loc>
-    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/googlechrome/</loc>
+    <loc>https://ckdalton01.github.io/tags/googlechrome/</loc>
     <lastmod>2025-05-25T21:31:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/googlechromeclose/</loc>
+    <loc>https://ckdalton01.github.io/blog/googlechromeclose/</loc>
     <lastmod>2025-05-25T21:31:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/sqlqueryforwsusupdates/</loc>
-    <lastmod>2025-02-21T11:22:26-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/wsus/</loc>
-    <lastmod>2025-02-21T11:22:26-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/intune/</loc>
+    <loc>https://ckdalton01.github.io/tags/intune/</loc>
     <lastmod>2025-01-27T21:16:26-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/patchmypcupdaterings/</loc>
+    <loc>https://ckdalton01.github.io/blog/patchmypcupdaterings/</loc>
     <lastmod>2025-01-27T21:16:26-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/aadconnectresultstatus/</loc>
-    <lastmod>2024-12-22T21:01:30-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/azure/</loc>
-    <lastmod>2024-12-22T21:01:30-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cloudattach/</loc>
+    <loc>https://ckdalton01.github.io/tags/cloudattach/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/cloudattach401error/</loc>
+    <loc>https://ckdalton01.github.io/blog/cloudattach401error/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/configmgrmp-prereqs/</loc>
+    <loc>https://ckdalton01.github.io/tags/troubleshooting/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/blog/configmgrmp-prereqs/</loc>
     <lastmod>2023-11-14T16:11:42-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/suerror0x800f0831/</loc>
+    <loc>https://ckdalton01.github.io/blog/suerror0x800f0831/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/softwareupdates/</loc>
+    <loc>https://ckdalton01.github.io/tags/softwareupdates/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/sccmfeatureupdateloop/</loc>
+    <loc>https://ckdalton01.github.io/blog/sccmfeatureupdateloop/</loc>
     <lastmod>2022-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ckdalton01.github.io/categories/</loc>
   </url>
 </urlset>

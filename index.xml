@@ -2,94 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DaltonFarm0</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ckdalton01.github.io/</link>
     <description>Recent content on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Nov 2025 20:31:47 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ckdalton01.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://ckdalton01.github.io/about/</link>
       <pubDate>Wed, 26 Nov 2025 20:31:47 -0700</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hello World!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cancun24-135-small.webp&#34; alt=&#34;my image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;My name is Chris Dalton. I’m a Customer Engineer / Professional log reader at &lt;a href=&#34;https://patchmypc.com&#34;&gt;Patch My PC&lt;/a&gt;. I’m furiously documenting some of the fringe cases I encounter.&lt;/p&gt;&#xA;&lt;p&gt;I don’t take this blog seriously, you shouldn’t either.&lt;/p&gt;&#xA;&lt;p&gt;I rarely promote this in any way. If you find this page, I hope it was moderately helpful.&lt;/p&gt;</description>
+      <guid>https://ckdalton01.github.io/about/</guid>
+      <description>&lt;p&gt;Hello World!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/images/cancun24-135-small.webp&#34; alt=&#34;my image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;My name is Chris Dalton. I’m a Customer Engineer / Professional log reader at &lt;a href=&#34;https://patchmypc.com&#34;&gt;Patch My PC&lt;/a&gt;. I’m furiously documenting some of the fringe cases I encounter.&lt;/p&gt;&#xA;&lt;p&gt;I don’t take this blog seriously, you shouldn’t either.&lt;/p&gt;&#xA;&lt;p&gt;I rarely promote this in any way. If you find this page, I hope it was moderately helpful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Website is live</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://ckdalton01.github.io/posts/my-first-post/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://ckdalton01.github.io/posts/my-first-post/</guid>
       <description>&lt;p&gt;This is a new website where I am adding all of my notes&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Configuration Manager ADR 0x87d20417 Helper Script</title>
-      <link>http://localhost:1313/blog/adr404error/</link>
+      <title>Configuration Manager ADR 0x80070194 Helper Script</title>
+      <link>https://ckdalton01.github.io/blog/adr404error/</link>
       <pubDate>Thu, 20 Nov 2025 10:51:30 -0700</pubDate>
-      <guid>http://localhost:1313/blog/adr404error/</guid>
-      <description>&lt;h1 id=&#34;404-error--cab-file-missing&#34;&gt;404 Error – .cab File Missing&lt;/h1&gt;&#xA;&lt;p&gt;Occasionally this error appears when attempting to deploy updates:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020251120194954.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is usually the result of a &lt;strong&gt;missing .cab file&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For more details, Patch My PC provides an overview of the issue:&lt;br&gt;&#xA;&lt;a href=&#34;https://patchmypc.com/kb/adr-error-0x87d20417/&#34;&gt;https://patchmypc.com/kb/adr-error-0x87d20417/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;To resolve the problem manually, follow the steps here:&lt;br&gt;&#xA;&lt;a href=&#34;https://patchmypc.com/kb/missing-cab-update/&#34;&gt;https://patchmypc.com/kb/missing-cab-update/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;automated-fix-script&#34;&gt;Automated Fix Script&lt;/h2&gt;&#xA;&lt;p&gt;While this script does not &amp;ldquo;Fix&amp;rdquo; the problem for you. You can use it to help you determine which updates are missing.&#xA;You can also use this script to automatically detect the missing .cab files.&#xA;&lt;a href=&#34;https://github.com/ckdalton01/PMPC404Updates/&#34;&gt;https://github.com/ckdalton01/PMPC404Updates/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Troubleshooting Boundary Group and Content Lookup Issues in ConfigMgr</title>
-      <link>http://localhost:1313/blog/missingboundaryguid/</link>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/missingboundaryguid/</guid>
-      <description>&lt;p&gt;I wanted to compare some of the notes from our session to what we observed on the working device we have logs for.&lt;br&gt;&#xA;Again, all of this is &lt;strong&gt;out of scope for PMPC&lt;/strong&gt;, but we can still provide insight into &lt;em&gt;where&lt;/em&gt; to look.&lt;/p&gt;&#xA;&lt;p&gt;While we reviewed a lot of things in the logs, the line that stood out the most was this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020250825090432.png&#34; alt=&#34;Log snippet&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This update was &lt;strong&gt;Wireshark&lt;/strong&gt;. We confirmed it was properly signed and trusted by the device — but ultimately, the device &lt;strong&gt;could not find the content&lt;/strong&gt;.&lt;/p&gt;</description>
+      <guid>https://ckdalton01.github.io/blog/adr404error/</guid>
+      <description>&lt;h1 id=&#34;the-cloud-file-provider-exited-unexpectedly&#34;&gt;The Cloud file provider exited unexpectedly&lt;/h1&gt;&#xA;&lt;h2 id=&#34;404-error--cab-file-missing&#34;&gt;404 Error – .cab File Missing&lt;/h2&gt;&#xA;&lt;p&gt;Occasionally this error appears when attempting to deploy updates: 0x80070194&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/Pasted%20image%2020251120194954.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is usually the result of a &lt;strong&gt;missing .cab file&lt;/strong&gt;.&#xA;If the CAB file doesn’t exist, you will be unable to download and deploy that specific update(s) where the CAB file is deleted.&lt;/p&gt;&#xA;&lt;p&gt;For more details, Patch My PC provides an overview of the issue:&lt;br&gt;&#xA;&lt;a href=&#34;https://patchmypc.com/kb/adr-error-0x87d20417/&#34;&gt;https://patchmypc.com/kb/adr-error-0x87d20417/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;To resolve the problem manually, follow the steps here:&lt;br&gt;&#xA;&lt;a href=&#34;https://patchmypc.com/kb/missing-cab-update/&#34;&gt;https://patchmypc.com/kb/missing-cab-update/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Managing Google Chrome Relaunch Notifications via Windows Registry</title>
-      <link>http://localhost:1313/blog/googlechromeclose/</link>
+      <link>https://ckdalton01.github.io/blog/googlechromeclose/</link>
       <pubDate>Sun, 25 May 2025 21:31:21 -0700</pubDate>
-      <guid>http://localhost:1313/blog/googlechromeclose/</guid>
+      <guid>https://ckdalton01.github.io/blog/googlechromeclose/</guid>
       <description>&lt;p&gt;Keeping browsers up to date is crucial for security and performance, especially in enterprise environments. Google Chrome offers a way for IT administrators to enforce or recommend browser restarts after updates using Windows Registry keys. This ensures users are running the latest version without unnecessary delays.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;&#xA;&lt;p&gt;Chrome supports two registry paths for policy configuration:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;HKEY_CURRENT_USER\Software\Policies\Google\Chrome&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These paths allow you to define policies that control Chrome’s behavior. One such policy is &lt;strong&gt;RelaunchNotification&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>SQL Query For WSUS Updates</title>
-      <link>http://localhost:1313/blog/sqlqueryforwsusupdates/</link>
-      <pubDate>Fri, 21 Feb 2025 11:22:26 -0700</pubDate>
-      <guid>http://localhost:1313/blog/sqlqueryforwsusupdates/</guid>
-      <description>&lt;h2 id=&#34;wsus-sql-cleanup--update-health-query&#34;&gt;WSUS SQL Cleanup &amp;amp; Update Health Query&lt;/h2&gt;&#xA;&lt;p&gt;When working with WSUS—especially in large ConfigMgr/SCCM environments—database bloat and superseded updates can cause synchronization failures, ADR issues, and overall sluggish console performance. Administrators often need deeper visibility into the WSUS database to understand:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How many updates are currently stored&lt;/li&gt;&#xA;&lt;li&gt;Which updates are superseded&lt;/li&gt;&#xA;&lt;li&gt;Whether superseded updates have been properly declined&lt;/li&gt;&#xA;&lt;li&gt;Whether WSUS has accumulated a backlog of &lt;em&gt;obsolete&lt;/em&gt; updates that require cleanup&lt;/li&gt;&#xA;&lt;li&gt;Whether a specific update is declined in WSUS (useful for ConfigMgr troubleshooting)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The following SQL query is commonly used when troubleshooting WSUS optimization issues, ADR failures, and Patch Tuesday cleanup workflows.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Patch My PC Update Rings</title>
-      <link>http://localhost:1313/blog/patchmypcupdaterings/</link>
+      <link>https://ckdalton01.github.io/blog/patchmypcupdaterings/</link>
       <pubDate>Mon, 27 Jan 2025 21:16:26 -0700</pubDate>
-      <guid>http://localhost:1313/blog/patchmypcupdaterings/</guid>
-      <description>&lt;h1 id=&#34;patch-my-pc-portal-update-ringsexplained&#34;&gt;Patch My PC Portal Update rings explained.&lt;/h1&gt;&#xA;&lt;p&gt;I don’t like the word “demystified” because it feels like some AI slop.&lt;/p&gt;&#xA;&lt;p&gt;These patches that are released are not like Microsoft Updates where updates are released once a month on Patch Tuesday. They are released whenever the vendor sends out the update.&lt;/p&gt;&#xA;&lt;p&gt;Update rings are based on a +(Days) from when the &lt;strong&gt;VENDOR&lt;/strong&gt; releases the update.&lt;/p&gt;&#xA;&lt;p&gt;I’m going to try and explain this visually.&#xA;&lt;img src=&#34;http://localhost:1313/image-101.png&#34; alt=&#34;[image-101.png]&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AADConnectResultStatus</title>
-      <link>http://localhost:1313/blog/aadconnectresultstatus/</link>
-      <pubDate>Sun, 22 Dec 2024 21:01:30 -0700</pubDate>
-      <guid>http://localhost:1313/blog/aadconnectresultstatus/</guid>
-      <description>&lt;p&gt;While running &lt;strong&gt;Microsoft Entra Connect Sync&lt;/strong&gt;, I encountered a persistent configuration error that refused to clear:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“Retrying this operation may help resolve the issue.”&lt;br&gt;&#xA;&lt;em&gt;(Spoiler: it won’t.)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image-7.png&#34; alt=&#34;image-7&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Everything looked correct during setup, but the sync would not complete. The issue turned out to be related to the &lt;strong&gt;synchronization service account&lt;/strong&gt; Entra Connect tries to create.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;reviewing-the-logs&#34;&gt;Reviewing the Logs&lt;/h2&gt;&#xA;&lt;p&gt;The wizard errors lacked detail, but the logs provided the necessary clue:&lt;/p&gt;</description>
+      <guid>https://ckdalton01.github.io/blog/patchmypcupdaterings/</guid>
+      <description>&lt;h1 id=&#34;patch-my-pc-portal-update-ringsexplained&#34;&gt;Patch My PC Portal Update rings explained.&lt;/h1&gt;&#xA;&lt;p&gt;I don’t like the word “demystified” because it feels like some AI slop.&lt;/p&gt;&#xA;&lt;p&gt;These patches that are released are not like Microsoft Updates where updates are released once a month on Patch Tuesday. They are released whenever the vendor sends out the update.&lt;/p&gt;&#xA;&lt;p&gt;Update rings are based on a +(Days) from when the &lt;strong&gt;VENDOR&lt;/strong&gt; releases the update.&lt;/p&gt;&#xA;&lt;p&gt;I’m going to try and explain this visually.&#xA;&lt;img src=&#34;https://ckdalton01.github.io/image-101.png&#34; alt=&#34;[image-101.png]&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuration Manager Cloud Attach Error: (401) Unauthorized</title>
-      <link>http://localhost:1313/blog/cloudattach401error/</link>
+      <link>https://ckdalton01.github.io/blog/cloudattach401error/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/cloudattach401error/</guid>
-      <description>&lt;h1 id=&#34;configmgr-cloud-attach-error-401-unauthorized&#34;&gt;ConfigMgr Cloud Attach Error: (401) Unauthorized&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;CMGatewayNotificationWorker&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Warning][CMGatewayNotificationWorker][0][System.Net.WebException][0x80131509]&#xA;The remote server returned an error: (401) Unauthorized.&#xA;at Microsoft.ConfigurationManager.ServiceConnector.ExtensionMethods.d__13.MoveNext()&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I struggled with this one while setting up Co-management testing in Microsoft Configuration Manager.&lt;br&gt;&#xA;Cloud Attach completed successfully — everything looked good. I entered my Entra ID Global Admin credentials and all indicators turned green.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;But nothing would sync.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;After reviewing the logs, I found the following repeated error in &lt;strong&gt;CMGatewayNotificationWorker.log&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image.png&#34; alt=&#34;CMGatewayNotificationWorker 401 error&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://ckdalton01.github.io/blog/cloudattach401error/</guid>
+      <description>&lt;h1 id=&#34;configmgr-cloud-attach-error-401-unauthorized&#34;&gt;ConfigMgr Cloud Attach Error: (401) Unauthorized&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;CMGatewayNotificationWorker&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Warning][CMGatewayNotificationWorker][0][System.Net.WebException][0x80131509]&#xA;The remote server returned an error: (401) Unauthorized.&#xA;at Microsoft.ConfigurationManager.ServiceConnector.ExtensionMethods.d__13.MoveNext()&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I struggled with this one while setting up Co-management testing in Microsoft Configuration Manager.&lt;br&gt;&#xA;Cloud Attach completed successfully — everything looked good. I entered my Entra ID Global Admin credentials and all indicators turned green.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;But nothing would sync.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;After reviewing the logs, I found the following repeated error in &lt;strong&gt;CMGatewayNotificationWorker.log&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/image.png&#34; alt=&#34;CMGatewayNotificationWorker 401 error&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuration Manager MP PowerShell Prereqs</title>
-      <link>http://localhost:1313/blog/configmgrmp-prereqs/</link>
+      <link>https://ckdalton01.github.io/blog/configmgrmp-prereqs/</link>
       <pubDate>Tue, 14 Nov 2023 16:11:42 -0700</pubDate>
-      <guid>http://localhost:1313/blog/configmgrmp-prereqs/</guid>
+      <guid>https://ckdalton01.github.io/blog/configmgrmp-prereqs/</guid>
       <description>&lt;h2 id=&#34;why-use-powershell-to-install-prerequisites-for-a-configuration-manager-management-point&#34;&gt;Why Use PowerShell to Install Prerequisites for a Configuration Manager Management Point?&lt;/h2&gt;&#xA;&lt;p&gt;When building a &lt;strong&gt;Configuration Manager (SCCM) Management Point&lt;/strong&gt;, installing the correct Windows Server prerequisites is critical. While these components can be added manually through Server Manager, using &lt;strong&gt;PowerShell&lt;/strong&gt; is the fastest, most reliable, and most repeatable way to prepare a server for the MP role.&lt;/p&gt;&#xA;&lt;p&gt;PowerShell ensures:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Consistency&lt;/strong&gt; – Every server is built the same way, reducing configuration drift.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt; – A full MP prereq stack installs in seconds, not minutes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Automation&lt;/strong&gt; – Ideal for large environments, rebuilds, labs, and standardized deployment pipelines.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; – The installation script becomes living documentation of what&amp;rsquo;s required.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Error reduction&lt;/strong&gt; – Avoid missing components that cause MP install failures.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Below is a complete PowerShell command set you can use to install all MP prerequisites in one shot.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuration Manager Software Updates Error 0x800F0831</title>
-      <link>http://localhost:1313/blog/suerror0x800f0831/</link>
+      <link>https://ckdalton01.github.io/blog/suerror0x800f0831/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/suerror0x800f0831/</guid>
-      <description>&lt;h1 id=&#34;configuration-manager-software-updates-error-0x800f0831&#34;&gt;Configuration Manager: Software Updates Error 0x800F0831&lt;/h1&gt;&#xA;&lt;p&gt;I came across this issue in Configuration Manager while attempting to patch a Server OS.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image-5.png&#34; alt=&#34;Update failure screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The error:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Failed to Install Updates — 0x800F0831 (Unknown Error -2146498511)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;occurs when a &lt;strong&gt;pre-requisite update is missing&lt;/strong&gt; from the system.&lt;/p&gt;&#xA;&lt;p&gt;To resolve this, we must identify and install the missing prerequisite.&lt;/p&gt;&#xA;&lt;p&gt;Below is an example from one of my Windows Server 2012 systems where two monthly updates repeatedly failed to install — even after manual retries.&lt;/p&gt;</description>
+      <guid>https://ckdalton01.github.io/blog/suerror0x800f0831/</guid>
+      <description>&lt;h1 id=&#34;configuration-manager-software-updates-error-0x800f0831&#34;&gt;Configuration Manager: Software Updates Error 0x800F0831&lt;/h1&gt;&#xA;&lt;p&gt;I came across this issue in Configuration Manager while attempting to patch a Server OS.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/image-5.png&#34; alt=&#34;Update failure screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The error:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Failed to Install Updates — 0x800F0831 (Unknown Error -2146498511)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;occurs when a &lt;strong&gt;pre-requisite update is missing&lt;/strong&gt; from the system.&lt;/p&gt;&#xA;&lt;p&gt;To resolve this, we must identify and install the missing prerequisite.&lt;/p&gt;&#xA;&lt;p&gt;Below is an example from one of my Windows Server 2012 systems where two monthly updates repeatedly failed to install — even after manual retries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuration Manager Feature Update Loop</title>
-      <link>http://localhost:1313/blog/sccmfeatureupdateloop/</link>
+      <link>https://ckdalton01.github.io/blog/sccmfeatureupdateloop/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/sccmfeatureupdateloop/</guid>
+      <guid>https://ckdalton01.github.io/blog/sccmfeatureupdateloop/</guid>
       <description>&lt;h1 id=&#34;fix-sccm-feature-update-loop-troubleshooting-guide&#34;&gt;Fix SCCM Feature Update Loop: Troubleshooting Guide&lt;/h1&gt;&#xA;&lt;p&gt;To understand this problem, remember that SCCM is only attempting to launch the setup file for the feature update. The feature update is failing, and SCCM continues to try to run the setup. As part of the setup process the PC must reboot—hence the loop after the setup failure.&lt;/p&gt;&#xA;&lt;h2 id=&#34;reviewing-windows-setup-logs&#34;&gt;Reviewing Windows Setup Logs&lt;/h2&gt;&#xA;&lt;p&gt;First, enable &lt;strong&gt;Show hidden items&lt;/strong&gt; in File Explorer, then browse to:&lt;/p&gt;</description>
     </item>
   </channel>
