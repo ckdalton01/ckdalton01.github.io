@@ -6,8 +6,29 @@
     <description>Recent content in Blogs on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Nov 2025 10:51:30 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 19:35:34 -0700</lastBuildDate>
     <atom:link href="https://ckdalton01.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get DiscoveredAppsAllDevices</title>
+      <link>https://ckdalton01.github.io/blog/get-discoveredappsalldevices/</link>
+      <pubDate>Wed, 11 Feb 2026 19:35:34 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/get-discoveredappsalldevices/</guid>
+      <description>&lt;h1 id=&#34;mastering-microsoft-intune-software-inventory-a-deep-dive-into-automated-reporting&#34;&gt;Mastering Microsoft Intune Software Inventory: A Deep Dive into Automated Reporting&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/Get-DiscoveredApps.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Managing a fleet of devices in a modern enterprise environment often feels like trying to herd cats—especially when it&amp;rsquo;s time to figure out exactly what software is installed where. If you&amp;rsquo;re an IT administrator using Microsoft Intune, you know that while the data exists within the portal, getting a clean, holistic, and shareable report can be a surprisingly manual task.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Intune App List &#43; Assignments</title>
+      <link>https://ckdalton01.github.io/blog/intuneapplist/</link>
+      <pubDate>Tue, 06 Jan 2026 20:17:37 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/intuneapplist/</guid>
+      <description>&lt;p&gt;A customer recently reached out asking if we had a report that could grab every application created in Intune and display all the assignments associated with each one. At Patch My PC, we didn&amp;rsquo;t have a specific report for that exact scenario (at the time of this writing), so I decided to build a custom solution.&lt;/p&gt;&#xA;&lt;p&gt;I figured it wouldn&amp;rsquo;t be too difficult to pull this data using PowerShell and the Microsoft Graph API. Below is the journey from a basic raw data dump to a polished Excel report.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ADR &#34;Best Practice&#34;</title>
+      <link>https://ckdalton01.github.io/blog/adrbestpractice/</link>
+      <pubDate>Mon, 29 Dec 2025 19:44:28 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/adrbestpractice/</guid>
+      <description>&lt;h1 id=&#34;the-95-solution-how-to-actually-setup-your-adrs&#34;&gt;The 95% Solution: How to Actually Setup Your ADRs&lt;/h1&gt;&#xA;&lt;p&gt;Someone recently asked me what&amp;rsquo;s the &lt;em&gt;best&lt;/em&gt; way to setup ADRs (Automatic Deployment Rules). So, I&amp;rsquo;m going to run through a quick post on what I configure in 95% of the environments I manage.&lt;/p&gt;&#xA;&lt;p&gt;There are always exceptions, but the following setup is likely what I would deploy in almost any environment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-strategy&#34;&gt;The Strategy&lt;/h2&gt;&#xA;&lt;p&gt;You are going to build &lt;strong&gt;4 different ADRs&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Configuration Manager ADR 0x80070194 Helper Script</title>
       <link>https://ckdalton01.github.io/blog/adr404error/</link>
@@ -23,11 +44,25 @@
       <description>&lt;p&gt;Keeping browsers up to date is crucial for security and performance, especially in enterprise environments. Google Chrome offers a way for IT administrators to enforce or recommend browser restarts after updates using Windows Registry keys. This ensures users are running the latest version without unnecessary delays.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;&#xA;&lt;p&gt;Chrome supports two registry paths for policy configuration:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;HKEY_CURRENT_USER\Software\Policies\Google\Chrome&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These paths allow you to define policies that control Chrome’s behavior. One such policy is &lt;strong&gt;RelaunchNotification&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>SQL Query For WSUS Updates</title>
+      <link>https://ckdalton01.github.io/blog/sqlqueryforwsusupdates/</link>
+      <pubDate>Fri, 21 Feb 2025 11:22:26 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/sqlqueryforwsusupdates/</guid>
+      <description>&lt;h2 id=&#34;wsus-sql-cleanup--update-health-query&#34;&gt;WSUS SQL Cleanup &amp;amp; Update Health Query&lt;/h2&gt;&#xA;&lt;p&gt;When working with WSUS—especially in large ConfigMgr/SCCM environments—database bloat and superseded updates can cause synchronization failures, ADR issues, and overall sluggish console performance. Administrators often need deeper visibility into the WSUS database to understand:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How many updates are currently stored&lt;/li&gt;&#xA;&lt;li&gt;Which updates are superseded&lt;/li&gt;&#xA;&lt;li&gt;Whether superseded updates have been properly declined&lt;/li&gt;&#xA;&lt;li&gt;Whether WSUS has accumulated a backlog of &lt;em&gt;obsolete&lt;/em&gt; updates that require cleanup&lt;/li&gt;&#xA;&lt;li&gt;Whether a specific update is declined in WSUS (useful for ConfigMgr troubleshooting)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The following SQL query is commonly used when troubleshooting WSUS optimization issues, ADR failures, and Patch Tuesday cleanup workflows.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Patch My PC Update Rings</title>
       <link>https://ckdalton01.github.io/blog/patchmypcupdaterings/</link>
       <pubDate>Mon, 27 Jan 2025 21:16:26 -0700</pubDate>
       <guid>https://ckdalton01.github.io/blog/patchmypcupdaterings/</guid>
       <description>&lt;h1 id=&#34;patch-my-pc-portal-update-ringsexplained&#34;&gt;Patch My PC Portal Update rings explained.&lt;/h1&gt;&#xA;&lt;p&gt;I don’t like the word “demystified” because it feels like some AI slop.&lt;/p&gt;&#xA;&lt;p&gt;These patches that are released are not like Microsoft Updates where updates are released once a month on Patch Tuesday. They are released whenever the vendor sends out the update.&lt;/p&gt;&#xA;&lt;p&gt;Update rings are based on a +(Days) from when the &lt;strong&gt;VENDOR&lt;/strong&gt; releases the update.&lt;/p&gt;&#xA;&lt;p&gt;I’m going to try and explain this visually.&#xA;&lt;img src=&#34;https://ckdalton01.github.io/image-101.png&#34; alt=&#34;[image-101.png]&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AADConnectResultStatus</title>
+      <link>https://ckdalton01.github.io/blog/aadconnectresultstatus/</link>
+      <pubDate>Sun, 22 Dec 2024 21:01:30 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/aadconnectresultstatus/</guid>
+      <description>&lt;p&gt;While running &lt;strong&gt;Microsoft Entra Connect Sync&lt;/strong&gt;, I encountered a persistent configuration error that refused to clear:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“Retrying this operation may help resolve the issue.”&lt;br&gt;&#xA;&lt;em&gt;(Spoiler: it won’t.)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/image-7.png&#34; alt=&#34;image-7&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Everything looked correct during setup, but the sync would not complete. The issue turned out to be related to the &lt;strong&gt;synchronization service account&lt;/strong&gt; Entra Connect tries to create.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;reviewing-the-logs&#34;&gt;Reviewing the Logs&lt;/h2&gt;&#xA;&lt;p&gt;The wizard errors lacked detail, but the logs provided the necessary clue:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuration Manager Cloud Attach Error: (401) Unauthorized</title>

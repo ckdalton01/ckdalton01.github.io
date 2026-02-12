@@ -6,14 +6,28 @@
     <description>Recent content in ConfigMgr on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Nov 2025 10:51:30 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 19:44:28 -0700</lastBuildDate>
     <atom:link href="https://ckdalton01.github.io/tags/configmgr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ADR &#34;Best Practice&#34;</title>
+      <link>https://ckdalton01.github.io/blog/adrbestpractice/</link>
+      <pubDate>Mon, 29 Dec 2025 19:44:28 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/adrbestpractice/</guid>
+      <description>&lt;h1 id=&#34;the-95-solution-how-to-actually-setup-your-adrs&#34;&gt;The 95% Solution: How to Actually Setup Your ADRs&lt;/h1&gt;&#xA;&lt;p&gt;Someone recently asked me what&amp;rsquo;s the &lt;em&gt;best&lt;/em&gt; way to setup ADRs (Automatic Deployment Rules). So, I&amp;rsquo;m going to run through a quick post on what I configure in 95% of the environments I manage.&lt;/p&gt;&#xA;&lt;p&gt;There are always exceptions, but the following setup is likely what I would deploy in almost any environment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-strategy&#34;&gt;The Strategy&lt;/h2&gt;&#xA;&lt;p&gt;You are going to build &lt;strong&gt;4 different ADRs&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Configuration Manager ADR 0x80070194 Helper Script</title>
       <link>https://ckdalton01.github.io/blog/adr404error/</link>
       <pubDate>Thu, 20 Nov 2025 10:51:30 -0700</pubDate>
       <guid>https://ckdalton01.github.io/blog/adr404error/</guid>
       <description>&lt;h1 id=&#34;the-cloud-file-provider-exited-unexpectedly&#34;&gt;The Cloud file provider exited unexpectedly&lt;/h1&gt;&#xA;&lt;h2 id=&#34;404-error--cab-file-missing&#34;&gt;404 Error – .cab File Missing&lt;/h2&gt;&#xA;&lt;p&gt;Occasionally this error appears when attempting to deploy updates: 0x80070194&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/Pasted%20image%2020251120194954.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is usually the result of a &lt;strong&gt;missing .cab file&lt;/strong&gt;.&#xA;If the CAB file doesn’t exist, you will be unable to download and deploy that specific update(s) where the CAB file is deleted.&lt;/p&gt;&#xA;&lt;p&gt;For more details, Patch My PC provides an overview of the issue:&lt;br&gt;&#xA;&lt;a href=&#34;https://patchmypc.com/kb/adr-error-0x87d20417/&#34;&gt;https://patchmypc.com/kb/adr-error-0x87d20417/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;To resolve the problem manually, follow the steps here:&lt;br&gt;&#xA;&lt;a href=&#34;https://patchmypc.com/kb/missing-cab-update/&#34;&gt;https://patchmypc.com/kb/missing-cab-update/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SQL Query For WSUS Updates</title>
+      <link>https://ckdalton01.github.io/blog/sqlqueryforwsusupdates/</link>
+      <pubDate>Fri, 21 Feb 2025 11:22:26 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/sqlqueryforwsusupdates/</guid>
+      <description>&lt;h2 id=&#34;wsus-sql-cleanup--update-health-query&#34;&gt;WSUS SQL Cleanup &amp;amp; Update Health Query&lt;/h2&gt;&#xA;&lt;p&gt;When working with WSUS—especially in large ConfigMgr/SCCM environments—database bloat and superseded updates can cause synchronization failures, ADR issues, and overall sluggish console performance. Administrators often need deeper visibility into the WSUS database to understand:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How many updates are currently stored&lt;/li&gt;&#xA;&lt;li&gt;Which updates are superseded&lt;/li&gt;&#xA;&lt;li&gt;Whether superseded updates have been properly declined&lt;/li&gt;&#xA;&lt;li&gt;Whether WSUS has accumulated a backlog of &lt;em&gt;obsolete&lt;/em&gt; updates that require cleanup&lt;/li&gt;&#xA;&lt;li&gt;Whether a specific update is declined in WSUS (useful for ConfigMgr troubleshooting)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The following SQL query is commonly used when troubleshooting WSUS optimization issues, ADR failures, and Patch Tuesday cleanup workflows.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuration Manager Cloud Attach Error: (401) Unauthorized</title>

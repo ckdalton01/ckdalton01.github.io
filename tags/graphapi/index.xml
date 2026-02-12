@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GraphAPI on DaltonFarm0</title>
+    <link>https://ckdalton01.github.io/tags/graphapi/</link>
+    <description>Recent content in GraphAPI on DaltonFarm0</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Jan 2026 20:17:37 -0700</lastBuildDate>
+    <atom:link href="https://ckdalton01.github.io/tags/graphapi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intune App List &#43; Assignments</title>
+      <link>https://ckdalton01.github.io/blog/intuneapplist/</link>
+      <pubDate>Tue, 06 Jan 2026 20:17:37 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/intuneapplist/</guid>
+      <description>&lt;p&gt;A customer recently reached out asking if we had a report that could grab every application created in Intune and display all the assignments associated with each one. At Patch My PC, we didn&amp;rsquo;t have a specific report for that exact scenario (at the time of this writing), so I decided to build a custom solution.&lt;/p&gt;&#xA;&lt;p&gt;I figured it wouldn&amp;rsquo;t be too difficult to pull this data using PowerShell and the Microsoft Graph API. Below is the journey from a basic raw data dump to a polished Excel report.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

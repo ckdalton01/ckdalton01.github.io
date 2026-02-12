@@ -2,10 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ckdalton01.github.io/about/</loc>
-    <lastmod>2025-11-26T20:31:47-07:00</lastmod>
+    <loc>https://ckdalton01.github.io/blog/</loc>
+    <lastmod>2026-02-11T19:35:34-07:00</lastmod>
   </url><url>
     <loc>https://ckdalton01.github.io/</loc>
+    <lastmod>2026-02-11T19:35:34-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/blog/get-discoveredappsalldevices/</loc>
+    <lastmod>2026-02-11T19:35:34-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/tags/intune/</loc>
+    <lastmod>2026-02-11T19:35:34-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/tags/</loc>
+    <lastmod>2026-02-11T19:35:34-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/tags/windows/</loc>
+    <lastmod>2026-02-11T19:35:34-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/tags/graphapi/</loc>
+    <lastmod>2026-01-06T20:17:37-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/blog/intuneapplist/</loc>
+    <lastmod>2026-01-06T20:17:37-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/tags/adr/</loc>
+    <lastmod>2025-12-29T19:44:28-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/blog/adrbestpractice/</loc>
+    <lastmod>2025-12-29T19:44:28-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/tags/configmgr/</loc>
+    <lastmod>2025-12-29T19:44:28-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/tags/softwareupdates/</loc>
+    <lastmod>2025-12-29T19:44:28-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/about/</loc>
     <lastmod>2025-11-26T20:31:47-07:00</lastmod>
   </url><url>
     <loc>https://ckdalton01.github.io/posts/</loc>
@@ -14,25 +47,10 @@
     <loc>https://ckdalton01.github.io/posts/my-first-post/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ckdalton01.github.io/tags/adr/</loc>
-    <lastmod>2025-11-20T10:51:30-07:00</lastmod>
-  </url><url>
-    <loc>https://ckdalton01.github.io/blog/</loc>
-    <lastmod>2025-11-20T10:51:30-07:00</lastmod>
-  </url><url>
-    <loc>https://ckdalton01.github.io/tags/configmgr/</loc>
-    <lastmod>2025-11-20T10:51:30-07:00</lastmod>
-  </url><url>
     <loc>https://ckdalton01.github.io/blog/adr404error/</loc>
     <lastmod>2025-11-20T10:51:30-07:00</lastmod>
   </url><url>
     <loc>https://ckdalton01.github.io/tags/patchmypc/</loc>
-    <lastmod>2025-11-20T10:51:30-07:00</lastmod>
-  </url><url>
-    <loc>https://ckdalton01.github.io/tags/</loc>
-    <lastmod>2025-11-20T10:51:30-07:00</lastmod>
-  </url><url>
-    <loc>https://ckdalton01.github.io/tags/windows/</loc>
     <lastmod>2025-11-20T10:51:30-07:00</lastmod>
   </url><url>
     <loc>https://ckdalton01.github.io/tags/googlechrome/</loc>
@@ -41,11 +59,20 @@
     <loc>https://ckdalton01.github.io/blog/googlechromeclose/</loc>
     <lastmod>2025-05-25T21:31:21-07:00</lastmod>
   </url><url>
-    <loc>https://ckdalton01.github.io/tags/intune/</loc>
-    <lastmod>2025-01-27T21:16:26-07:00</lastmod>
+    <loc>https://ckdalton01.github.io/blog/sqlqueryforwsusupdates/</loc>
+    <lastmod>2025-02-21T11:22:26-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/tags/wsus/</loc>
+    <lastmod>2025-02-21T11:22:26-07:00</lastmod>
   </url><url>
     <loc>https://ckdalton01.github.io/blog/patchmypcupdaterings/</loc>
     <lastmod>2025-01-27T21:16:26-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/blog/aadconnectresultstatus/</loc>
+    <lastmod>2024-12-22T21:01:30-07:00</lastmod>
+  </url><url>
+    <loc>https://ckdalton01.github.io/tags/azure/</loc>
+    <lastmod>2024-12-22T21:01:30-07:00</lastmod>
   </url><url>
     <loc>https://ckdalton01.github.io/tags/cloudattach/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
@@ -60,9 +87,6 @@
     <lastmod>2023-11-14T16:11:42-07:00</lastmod>
   </url><url>
     <loc>https://ckdalton01.github.io/blog/suerror0x800f0831/</loc>
-    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ckdalton01.github.io/tags/softwareupdates/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ckdalton01.github.io/blog/sccmfeatureupdateloop/</loc>

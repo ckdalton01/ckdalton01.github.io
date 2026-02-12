@@ -6,8 +6,22 @@
     <description>Recent content in Intune on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 21:16:26 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 19:35:34 -0700</lastBuildDate>
     <atom:link href="https://ckdalton01.github.io/tags/intune/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get DiscoveredAppsAllDevices</title>
+      <link>https://ckdalton01.github.io/blog/get-discoveredappsalldevices/</link>
+      <pubDate>Wed, 11 Feb 2026 19:35:34 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/get-discoveredappsalldevices/</guid>
+      <description>&lt;h1 id=&#34;mastering-microsoft-intune-software-inventory-a-deep-dive-into-automated-reporting&#34;&gt;Mastering Microsoft Intune Software Inventory: A Deep Dive into Automated Reporting&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/Get-DiscoveredApps.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Managing a fleet of devices in a modern enterprise environment often feels like trying to herd cats—especially when it&amp;rsquo;s time to figure out exactly what software is installed where. If you&amp;rsquo;re an IT administrator using Microsoft Intune, you know that while the data exists within the portal, getting a clean, holistic, and shareable report can be a surprisingly manual task.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Intune App List &#43; Assignments</title>
+      <link>https://ckdalton01.github.io/blog/intuneapplist/</link>
+      <pubDate>Tue, 06 Jan 2026 20:17:37 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/intuneapplist/</guid>
+      <description>&lt;p&gt;A customer recently reached out asking if we had a report that could grab every application created in Intune and display all the assignments associated with each one. At Patch My PC, we didn&amp;rsquo;t have a specific report for that exact scenario (at the time of this writing), so I decided to build a custom solution.&lt;/p&gt;&#xA;&lt;p&gt;I figured it wouldn&amp;rsquo;t be too difficult to pull this data using PowerShell and the Microsoft Graph API. Below is the journey from a basic raw data dump to a polished Excel report.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Patch My PC Update Rings</title>
       <link>https://ckdalton01.github.io/blog/patchmypcupdaterings/</link>
