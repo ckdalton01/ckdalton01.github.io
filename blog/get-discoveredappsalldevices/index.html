@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Get-DiscoveredAppsAllDevices // DaltonFarm0</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.152.2">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Chris Dalton" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Get-DiscoveredAppsAllDevices">
+  <meta name="twitter:description" content="Get-DiscoveredAppsAllDevices Managing a fleet of devices in a modern enterprise feels a lot like trying to herd cats. Everyone’s got something installed that they shouldn’t, some machines are three browser versions behind, and when someone asks for a software inventory, the data exists in Intune but isn’t easy to bring together in one clear view.
+Here is a PowerShell script that talks to the Microsoft Graph API, pulls every discovered app across your entire tenant, and wraps it all up in a clean, multi-sheet Excel workbook. No more manual exports. No more copy-paste marathons.">
+
+    <meta property="og:url" content="https://ckdalton01.github.io/blog/get-discoveredappsalldevices/">
+  <meta property="og:site_name" content="DaltonFarm0">
+  <meta property="og:title" content="Get-DiscoveredAppsAllDevices">
+  <meta property="og:description" content="Get-DiscoveredAppsAllDevices Managing a fleet of devices in a modern enterprise feels a lot like trying to herd cats. Everyone’s got something installed that they shouldn’t, some machines are three browser versions behind, and when someone asks for a software inventory, the data exists in Intune but isn’t easy to bring together in one clear view.
+Here is a PowerShell script that talks to the Microsoft Graph API, pulls every discovered app across your entire tenant, and wraps it all up in a clean, multi-sheet Excel workbook. No more manual exports. No more copy-paste marathons.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2026-02-11T19:35:34-07:00">
+    <meta property="article:modified_time" content="2026-02-11T19:35:34-07:00">
+    <meta property="article:tag" content="Intune">
+    <meta property="article:tag" content="Windows">
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="/"><img class="app-header-avatar" src="/avatar.jpg" alt="Chris Dalton" /></a>
+      <span class="app-header-title">DaltonFarm0</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             -- 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+             -- 
+          
+          <a class="app-header-menu-item" href="/about/">About</a>
+      </nav>
+      <p>Professional Log Reader, amature at everything else.</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/ckdalton01" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-github" viewBox="0 0 24 24" fill="currentColor"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        
+          <a href="https://www.linkedin.com/in/christopher-dalton-552a2955" target="_blank" rel="noreferrer noopener me">
+            <svg class="icon icon-brand-linkedin" viewBox="0 0 24 24" fill="currentColor"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Get-DiscoveredAppsAllDevices</h1>
+      <div class="post-meta">
+        <div>
+          <svg class="icon icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>calendar</title><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Feb 11, 2026
+        </div>
+        <div>
+          <svg class="icon icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>clock</title><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          5 min read
+        </div>
+        <div>
+          <svg class="icon icon-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>tag</title><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+              <a class="tag" href="/tags/intune/">Intune</a>
+              <a class="tag" href="/tags/windows/">Windows</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h1 id="get-discoveredappsalldevices">Get-DiscoveredAppsAllDevices</h1>
+<p><img src="/stopclicking.png" alt="image"></p>
+<p>Managing a fleet of devices in a modern enterprise feels a lot like trying to herd cats. Everyone&rsquo;s got <em>something</em> installed that they shouldn&rsquo;t, some machines are three browser versions behind, and when someone asks for a software inventory, the data exists in Intune but isn’t easy to bring together in one clear view.</p>
+<p>Here is a PowerShell script that talks to the Microsoft Graph API, pulls every discovered app across your entire tenant, and wraps it all up in a clean, multi-sheet Excel workbook. No more manual exports. No more copy-paste marathons.</p>
+<p>The script is available on GitHub: <a href="https://github.com/ckdalton01/Get-DiscoveredAppsAllDevices">Get-DiscoveredAppsAllDevices</a></p>
+<hr>
+<h2 id="what-it-actually-does">What It Actually Does</h2>
+<p>It authenticates to Microsoft Graph, sweeps your Intune tenant discovered applications, and organizes everything into output files that managers can actually read.</p>
+<p>By default you get a formatted Excel workbook: <code>Intune_Software_Inventory.xlsx</code>. If you&rsquo;d rather have raw data to feed into something else, there&rsquo;s a switch for that too.</p>
+<p><img src="/2026-03-25_19-45-53.PNG" alt="image1"></p>
+<p>The workbook is split into four worksheets:</p>
+<ul>
+<li><strong>Overview</strong> — A high-level dashboard: total discovered apps, total installation records, and any retrieval errors. Good for the &ldquo;just give me the numbers&rdquo; crowd.</li>
+<li><strong>Applications</strong> — Every unique app name and version found across your fleet, with installation counts. This is where you spot version sprawl fast.</li>
+<li><strong>Installations</strong> — The granular view. App name and version mapped to every device it&rsquo;s installed on, including Device IDs. Wrapped text formatting keeps it readable without manual tweaking.</li>
+<li><strong>Errors</strong> — Any apps that couldn&rsquo;t be fully retrieved are logged here, so you know exactly where to dig if something looks off.</li>
+</ul>
+<hr>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before you run anything, you&rsquo;ll need two PowerShell modules installed:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Install-Module Microsoft.Graph -Scope CurrentUser
+</span></span><span style="display:flex;"><span>Install-Module ImportExcel -Scope CurrentUser
+</span></span></code></pre></div><p>On the permissions side, the script needs these Microsoft Graph API scopes:</p>
+<ul>
+<li><code>DeviceManagementApps.Read.All</code></li>
+<li><code>DeviceManagementManagedDevices.Read.All</code></li>
+</ul>
+<p>These are read-only — the script never writes anything back to your environment. You&rsquo;ll need an account with one of the following Azure AD roles to consent to those scopes: <strong>Global Administrator</strong>, <strong>Intune Administrator</strong>, or <strong>Cloud Device Administrator</strong>.</p>
+<hr>
+<h2 id="running-the-script-v11">Running the Script (v1.1)</h2>
+<h3 id="basic-usage">Basic Usage</h3>
+<p>The simplest invocation pulls everything — all discovered apps across all devices:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>.\Get-DiscoveredAppsAllDevices.ps1
+</span></span></code></pre></div><p>The script will prompt you to sign in to Microsoft Graph, collect the data, and drop an Excel file in your current directory.</p>
+<h3 id="filtering-by-application-name">Filtering by Application Name</h3>
+<p>New in v1.1, you can pass a <code>-DisplayName</code> parameter to narrow things down. It supports standard PowerShell wildcards, so you&rsquo;ve got a lot of flexibility:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e"># Exact match</span>
+</span></span><span style="display:flex;"><span>.\Get-DiscoveredAppsAllDevices.ps1 -DisplayName <span style="color:#e6db74">&#34;Google Chrome&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Everything starting with &#34;Java&#34;</span>
+</span></span><span style="display:flex;"><span>.\Get-DiscoveredAppsAllDevices.ps1 -DisplayName <span style="color:#e6db74">&#34;Java*&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Everything with &#34;Office&#34; anywhere in the name</span>
+</span></span><span style="display:flex;"><span>.\Get-DiscoveredAppsAllDevices.ps1 -DisplayName <span style="color:#e6db74">&#34;*Office*&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Scoped search for a specific tool</span>
+</span></span><span style="display:flex;"><span>.\Get-DiscoveredAppsAllDevices.ps1 -DisplayName <span style="color:#e6db74">&#34;*Adobe Reader*&#34;</span>
+</span></span></code></pre></div><p>Matching is case-insensitive, so don&rsquo;t stress about capitalization.</p>
+<h3 id="choosing-your-output-format">Choosing Your Output Format</h3>
+<p>By default, the script produces an Excel file only. If you need a CSV instead — say, for importing into another tool or feeding a pipeline — use the <code>-CSV</code> switch:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e"># Excel only (default)</span>
+</span></span><span style="display:flex;"><span>.\Get-DiscoveredAppsAllDevices.ps1 -DisplayName <span style="color:#e6db74">&#34;Chrome*&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># CSV only, no Excel</span>
+</span></span><span style="display:flex;"><span>.\Get-DiscoveredAppsAllDevices.ps1 -DisplayName <span style="color:#e6db74">&#34;Chrome*&#34;</span> -CSV
+</span></span></code></pre></div><p>These two can be combined however you need. The <code>-CSV</code> switch skips Excel generation entirely and gives you <code>Intune_DiscoveredApps_WithDevices.csv</code> in the current directory.</p>
+<hr>
+<h2 id="authentication-troubleshooting">Authentication Troubleshooting</h2>
+<p>Authentication is the most common place things go sideways, so here&rsquo;s what to do when it does.</p>
+<p><strong>&ldquo;InteractiveBrowserCredential authentication failed: A window handle must be configured&rdquo;</strong></p>
+<p>This usually happens in certain PowerShell environments that can&rsquo;t pop open a browser window. The fix is to use device code authentication:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e"># Disconnect first if you&#39;ve tried before</span>
+</span></span><span style="display:flex;"><span>Disconnect-MgGraph
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Connect with device code flow</span>
+</span></span><span style="display:flex;"><span>Connect-MgGraph -Scopes <span style="color:#e6db74">&#34;DeviceManagementApps.Read.All&#34;</span>,<span style="color:#e6db74">&#34;DeviceManagementManagedDevices.Read.All&#34;</span> -UseDeviceCode
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Then run the script normally</span>
+</span></span><span style="display:flex;"><span>.\Get-DiscoveredAppsAllDevices.ps1
+</span></span></code></pre></div><p>You can also try running PowerShell as Administrator, or falling back to Windows PowerShell instead of PowerShell Core/7.</p>
+<p><strong>&ldquo;User canceled authentication&rdquo;</strong> — Just re-run the script and finish the sign-in flow in the browser.</p>
+<p><strong>&ldquo;Authentication needed. Please call Connect-MgGraph&rdquo;</strong> — The session didn&rsquo;t complete. The script will flag this and give you guidance. Try <code>Disconnect-MgGraph</code> first, then reconnect.</p>
+<hr>
+<h2 id="under-the-hood">Under the Hood</h2>
+<p>A few things worth knowing about how the engine works:</p>
+<p><strong>Rate limiting and retry logic.</strong> The Graph API will throttle you if you hit it too hard. The script handles this automatically with configurable retry logic — up to 5 attempts per call, with exponential backoff between retries. You can tune these at the top of the script:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$maxRetries  = <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>$baseDelayMs = <span style="color:#ae81ff">300</span>
+</span></span></code></pre></div><p>If you&rsquo;re seeing persistent rate limit issues, bump <code>$baseDelayMs</code> to 500 or 1000.</p>
+<p><strong>Memory management.</strong> Rather than loading everything into memory at once, the script streams raw data to a CSV first. This keeps the footprint manageable even in large environments.</p>
+<p><strong>Excel formatting.</strong> The output isn&rsquo;t just a raw data dump — frozen header rows, auto-sized columns, wrapped text for multi-line content. It&rsquo;s presentation-ready without any manual formatting on your end.</p>
+<hr>
+<h2 id="performance-heads-up">Performance Heads-Up</h2>
+<p>For large tenants with thousands of applications and devices, the script can take <strong>30 minutes or more</strong> to complete. That&rsquo;s not a bug — it&rsquo;s the script being a good API citizen, carefully pacing its requests to avoid getting throttled. Let it run.</p>
+<p>If you want to do a quick sanity check before committing to a full run, use the <code>-DisplayName</code> filter to pull a single app first and make sure everything&rsquo;s authenticating and outputting correctly.</p>
+<hr>
+<h2 id="quick-reference">Quick Reference</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Task</th>
+          <th>Command</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Full inventory (Excel)</td>
+          <td><code>.\Get-DiscoveredAppsAllDevices.ps1</code></td>
+      </tr>
+      <tr>
+          <td>Filter by app name</td>
+          <td><code>.\Get-DiscoveredAppsAllDevices.ps1 -DisplayName &quot;Chrome*&quot;</code></td>
+      </tr>
+      <tr>
+          <td>CSV output only</td>
+          <td><code>.\Get-DiscoveredAppsAllDevices.ps1 -CSV</code></td>
+      </tr>
+      <tr>
+          <td>Filtered CSV</td>
+          <td><code>.\Get-DiscoveredAppsAllDevices.ps1 -DisplayName &quot;*Java*&quot; -CSV</code></td>
+      </tr>
+      <tr>
+          <td>Device code auth</td>
+          <td><code>Connect-MgGraph -UseDeviceCode</code></td>
+      </tr>
+  </tbody>
+</table>
+<p>The script is up on GitHub, grab it, run it, have fun, it&rsquo;s free.</p>
+<p><a href="https://github.com/ckdalton01/Get-DiscoveredAppsAllDevices">https://github.com/ckdalton01/Get-DiscoveredAppsAllDevices</a></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

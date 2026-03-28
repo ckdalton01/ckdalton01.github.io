@@ -6,8 +6,15 @@
     <description>Recent content in ADR on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Nov 2025 10:51:30 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 19:44:28 -0700</lastBuildDate>
     <atom:link href="https://ckdalton01.github.io/tags/adr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ADR &#34;Best Practice&#34;</title>
+      <link>https://ckdalton01.github.io/blog/adrbestpractice/</link>
+      <pubDate>Mon, 29 Dec 2025 19:44:28 -0700</pubDate>
+      <guid>https://ckdalton01.github.io/blog/adrbestpractice/</guid>
+      <description>&lt;h1 id=&#34;the-95-solution-how-to-actually-setup-your-adrs&#34;&gt;The 95% Solution: How to Actually Setup Your ADRs&lt;/h1&gt;&#xA;&lt;p&gt;Someone recently asked me what&amp;rsquo;s the &lt;em&gt;best&lt;/em&gt; way to setup ADRs (Automatic Deployment Rules). So, I&amp;rsquo;m going to run through a quick post on what I configure in 95% of the environments I manage.&lt;/p&gt;&#xA;&lt;p&gt;There are always exceptions, but the following setup is likely what I would deploy in almost any environment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-strategy&#34;&gt;The Strategy&lt;/h2&gt;&#xA;&lt;p&gt;You are going to build &lt;strong&gt;4 different ADRs&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Configuration Manager ADR 0x80070194 Helper Script</title>
       <link>https://ckdalton01.github.io/blog/adr404error/</link>
