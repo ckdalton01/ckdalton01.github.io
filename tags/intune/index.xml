@@ -2,39 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intune on DaltonFarm0</title>
-    <link>https://ckdalton01.github.io/tags/intune/</link>
+    <link>http://localhost:1313/tags/intune/</link>
     <description>Recent content in Intune on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Feb 2026 19:35:34 -0700</lastBuildDate>
-    <atom:link href="https://ckdalton01.github.io/tags/intune/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/intune/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get-DiscoveredAppsAllDevices</title>
-      <link>https://ckdalton01.github.io/blog/get-discoveredappsalldevices/</link>
+      <link>http://localhost:1313/blog/get-discoveredappsalldevices/</link>
       <pubDate>Wed, 11 Feb 2026 19:35:34 -0700</pubDate>
-      <guid>https://ckdalton01.github.io/blog/get-discoveredappsalldevices/</guid>
-      <description>&lt;h1 id=&#34;get-discoveredappsalldevices&#34;&gt;Get-DiscoveredAppsAllDevices&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/stopclicking.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Managing a fleet of devices in a modern enterprise feels a lot like trying to herd cats. Everyone&amp;rsquo;s got &lt;em&gt;something&lt;/em&gt; installed that they shouldn&amp;rsquo;t, some machines are three browser versions behind, and when someone asks for a software inventory, the data exists in Intune but isn’t easy to bring together in one clear view.&lt;/p&gt;&#xA;&lt;p&gt;Here is a PowerShell script that talks to the Microsoft Graph API, pulls every discovered app across your entire tenant, and wraps it all up in a clean, multi-sheet Excel workbook. No more manual exports. No more copy-paste marathons.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/get-discoveredappsalldevices/</guid>
+      <description>&lt;h1 id=&#34;get-discoveredappsalldevices&#34;&gt;Get-DiscoveredAppsAllDevices&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/stopclicking.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Managing a fleet of devices in a modern enterprise feels a lot like trying to herd cats. Everyone&amp;rsquo;s got &lt;em&gt;something&lt;/em&gt; installed that they shouldn&amp;rsquo;t, some machines are three browser versions behind, and when someone asks for a software inventory, the data exists in Intune but isn’t easy to bring together in one clear view.&lt;/p&gt;&#xA;&lt;p&gt;Here is a PowerShell script that talks to the Microsoft Graph API, pulls every discovered app across your entire tenant, and wraps it all up in a clean, multi-sheet Excel workbook. No more manual exports. No more copy-paste marathons.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Intune App List &#43; Assignments</title>
-      <link>https://ckdalton01.github.io/blog/intuneapplist/</link>
+      <link>http://localhost:1313/blog/intuneapplist/</link>
       <pubDate>Tue, 06 Jan 2026 20:17:37 -0700</pubDate>
-      <guid>https://ckdalton01.github.io/blog/intuneapplist/</guid>
-      <description>&lt;p&gt;A customer recently reached out asking if we had a report that could grab every application created in Intune and display all the assignments associated with each one. At Patch My PC, we didn&amp;rsquo;t have a specific report for that exact scenario (at the time of this writing), so I decided to build a custom solution.&lt;/p&gt;&#xA;&lt;p&gt;I figured it wouldn&amp;rsquo;t be too difficult to pull this data using PowerShell and the Microsoft Graph API. Below is the journey from a basic raw data dump to a polished Excel report.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/intuneapplist/</guid>
+      <description>&lt;p&gt;A customer recently reached out asking if we had a report that could grab every application created in Intune and display all the assignments associated with each one. At Patch My PC, we didn&amp;rsquo;t have a specific report for that exact scenario (at the time of this writing), so I decided to build a custom solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Website is live</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;This is a new website where I am adding all of my notes&lt;/p&gt;</description>
     </item>
     <item>
       <title>Patch My PC Update Rings</title>
-      <link>https://ckdalton01.github.io/blog/patchmypcupdaterings/</link>
+      <link>http://localhost:1313/blog/patchmypcupdaterings/</link>
       <pubDate>Mon, 27 Jan 2025 21:16:26 -0700</pubDate>
-      <guid>https://ckdalton01.github.io/blog/patchmypcupdaterings/</guid>
-      <description>&lt;h1 id=&#34;patch-my-pc-portal-update-ringsexplained&#34;&gt;Patch My PC Portal Update rings explained.&lt;/h1&gt;&#xA;&lt;p&gt;I don’t like the word “demystified” because it feels like some AI slop.&lt;/p&gt;&#xA;&lt;p&gt;These patches that are released are not like Microsoft Updates where updates are released once a month on Patch Tuesday. They are released whenever the vendor sends out the update.&lt;/p&gt;&#xA;&lt;p&gt;Update rings are based on a +(Days) from when the &lt;strong&gt;VENDOR&lt;/strong&gt; releases the update.&lt;/p&gt;&#xA;&lt;p&gt;I’m going to try and explain this visually.&#xA;&lt;img src=&#34;https://ckdalton01.github.io/image-101.png&#34; alt=&#34;[image-101.png]&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/patchmypcupdaterings/</guid>
+      <description>&lt;h1 id=&#34;patch-my-pc-portal-update-ringsexplained&#34;&gt;Patch My PC Portal Update rings explained.&lt;/h1&gt;&#xA;&lt;p&gt;I don’t like the word “demystified” because it feels like some AI slop.&lt;/p&gt;&#xA;&lt;p&gt;These patches that are released are not like Microsoft Updates where updates are released once a month on Patch Tuesday. They are released whenever the vendor sends out the update.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Configuration Manager Cloud Attach Error: (401) Unauthorized</title>
-      <link>https://ckdalton01.github.io/blog/cloudattach401error/</link>
+      <link>http://localhost:1313/blog/cloudattach401error/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://ckdalton01.github.io/blog/cloudattach401error/</guid>
-      <description>&lt;h1 id=&#34;configmgr-cloud-attach-error-401-unauthorized&#34;&gt;ConfigMgr Cloud Attach Error: (401) Unauthorized&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;CMGatewayNotificationWorker&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Warning][CMGatewayNotificationWorker][0][System.Net.WebException][0x80131509]&#xA;The remote server returned an error: (401) Unauthorized.&#xA;at Microsoft.ConfigurationManager.ServiceConnector.ExtensionMethods.d__13.MoveNext()&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I struggled with this one while setting up Co-management testing in Microsoft Configuration Manager.&lt;br&gt;&#xA;Cloud Attach completed successfully — everything looked good. I entered my Entra ID Global Admin credentials and all indicators turned green.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;But nothing would sync.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;After reviewing the logs, I found the following repeated error in &lt;strong&gt;CMGatewayNotificationWorker.log&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/image.png&#34; alt=&#34;CMGatewayNotificationWorker 401 error&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/cloudattach401error/</guid>
+      <description>&lt;h1 id=&#34;configmgr-cloud-attach-error-401-unauthorized&#34;&gt;ConfigMgr Cloud Attach Error: (401) Unauthorized&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;CMGatewayNotificationWorker&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Warning][CMGatewayNotificationWorker][0][System.Net.WebException][0x80131509]&#xD;&#xA;The remote server returned an error: (401) Unauthorized.&#xD;&#xA;at Microsoft.ConfigurationManager.ServiceConnector.ExtensionMethods.d__13.MoveNext()&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I struggled with this one while setting up Co-management testing in Microsoft Configuration Manager.&lt;br&gt;&#xA;Cloud Attach completed successfully — everything looked good. I entered my Entra ID Global Admin credentials and all indicators turned green.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;But nothing would sync.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
