@@ -6,8 +6,22 @@
     <description>Recent content on DaltonFarm0</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Feb 2026 19:35:34 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 09:40:41 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coming Soon</title>
+      <link>http://localhost:1313/coming-soon/</link>
+      <pubDate>Mon, 03 Aug 2026 09:40:41 -0600</pubDate>
+      <guid>http://localhost:1313/coming-soon/</guid>
+      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming Soon&lt;/h2&gt;&#xA;&lt;p&gt;This page is coming soon.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/soon.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Stay tuned for updates as the site evolves and new features arrive.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Landing</title>
+      <link>http://localhost:1313/landing/</link>
+      <pubDate>Mon, 03 Aug 2026 09:40:41 -0600</pubDate>
+      <guid>http://localhost:1313/landing/</guid>
+      <description>&lt;p&gt;This page is a temporary placeholder for the backend login service.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/soon.png&#34; alt=&#34;soon&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The real authentication landing page is under construction.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Get-DiscoveredAppsAllDevices</title>
       <link>http://localhost:1313/blog/get-discoveredappsalldevices/</link>

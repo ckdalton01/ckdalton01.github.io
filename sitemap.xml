@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-02-11T19:35:34-07:00</lastmod>
+    <loc>http://localhost:1313/coming-soon/</loc>
+    <lastmod>2026-08-03T09:40:41-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-08-03T09:40:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/landing/</loc>
+    <lastmod>2026-08-03T09:40:41-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-02-11T19:35:34-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/get-discoveredappsalldevices/</loc>
@@ -53,15 +59,6 @@
     <loc>http://localhost:1313/tags/patchmypc/</loc>
     <lastmod>2025-11-20T10:51:30-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/branchcache/</loc>
-    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/troubleshooting/</loc>
-    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/missingboundaryguid/</loc>
-    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/googlechrome/</loc>
     <lastmod>2025-05-25T21:31:21-07:00</lastmod>
   </url><url>
@@ -87,6 +84,9 @@
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/cloudattach401error/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/troubleshooting/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/configmgrmp-prereqs/</loc>
