@@ -30,13 +30,6 @@
       <description>&lt;h1 id=&#34;the-cloud-file-provider-exited-unexpectedly&#34;&gt;The Cloud file provider exited unexpectedly&lt;/h1&gt;&#xA;&lt;h2 id=&#34;404-error--cab-file-missing&#34;&gt;404 Error – .cab File Missing&lt;/h2&gt;&#xA;&lt;p&gt;Occasionally this error appears when attempting to deploy updates: 0x80070194&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Pasted%20image%2020251120194954.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is usually the result of a &lt;strong&gt;missing .cab file&lt;/strong&gt;.&#xA;If the CAB file doesn’t exist, you will be unable to download and deploy that specific update(s) where the CAB file is deleted.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Troubleshooting Boundary Group and Content Lookup Issues in ConfigMgr</title>
-      <link>http://localhost:1313/blog/missingboundaryguid/</link>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/missingboundaryguid/</guid>
-      <description>&lt;p&gt;I wanted to compare some of the notes from our session to what we observed on the working device we have logs for.&lt;br&gt;&#xA;Again, all of this is &lt;strong&gt;out of scope for PMPC&lt;/strong&gt;, but we can still provide insight into &lt;em&gt;where&lt;/em&gt; to look.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>SQL Query For WSUS Updates</title>
       <link>http://localhost:1313/blog/sqlqueryforwsusupdates/</link>
       <pubDate>Fri, 21 Feb 2025 11:22:26 -0700</pubDate>
