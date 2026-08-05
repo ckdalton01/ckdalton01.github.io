@@ -41,7 +41,10 @@
 
     userInfo.innerHTML = `
       <span class="auth-user-name">${user.displayName || user.email}</span>
-      <a href="${BACKEND_URL}/auth/logout" class="auth-logout-button">Sign out</a>
+      <div class="auth-user-links">
+        <a id="auth-duck-support" href="${BACKEND_URL}/private/duck-support" class="auth-duck-support-link">Duck Support</a>
+        <a href="${BACKEND_URL}/auth/logout" class="auth-logout-button">Sign out</a>
+      </div>
     `;
   }
 
@@ -58,6 +61,12 @@
   }
 
   function initAuth() {
+    // Tell the backend where to send the user back to after a successful login.
+    const loginButton = document.getElementById('auth-login-button');
+    if (loginButton && shouldCheckAuth) {
+      loginButton.href = `${BACKEND_URL}/auth/login?return=${encodeURIComponent(window.location.origin)}`;
+    }
+
     if (shouldCheckAuth) {
       checkAuthStatus();
     } else {
