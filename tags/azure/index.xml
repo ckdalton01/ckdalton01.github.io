@@ -1,24 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Azure on DaltonFarm0</title>
-		<link>https://ckdalton01.github.io/tags/azure/</link>
-		<description>Recent content in Azure on DaltonFarm0</description>
-		<generator>Hugo</generator>
-		<language>en-us</language>
-		
-		
-		
-		
-			<lastBuildDate>Sun, 22 Dec 2024 21:01:30 -0700</lastBuildDate>
-		
-			<atom:link href="https://ckdalton01.github.io/tags/azure/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>AADConnectResultStatus</title>
-				<link>https://ckdalton01.github.io/blog/aadconnectresultstatus/</link>
-				<pubDate>Sun, 22 Dec 2024 21:01:30 -0700</pubDate>
-				<guid>https://ckdalton01.github.io/blog/aadconnectresultstatus/</guid>
-				<description>&lt;p&gt;While running &lt;strong&gt;Microsoft Entra Connect Sync&lt;/strong&gt;, I encountered a persistent configuration error that refused to clear:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“Retrying this operation may help resolve the issue.”&lt;br&gt;&#xA;&lt;em&gt;(Spoiler: it won’t.)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Azure on DaltonFarm0</title><link>https://thedaltonfarm.com/tags/azure/</link><description>Recent content in Azure on DaltonFarm0</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 22 Dec 2024 21:01:30 -0700</lastBuildDate><atom:link href="https://thedaltonfarm.com/tags/azure/index.xml" rel="self" type="application/rss+xml"/><item><title>AADConnectResultStatus</title><link>https://thedaltonfarm.com/blog/aadconnectresultstatus/</link><pubDate>Sun, 22 Dec 2024 21:01:30 -0700</pubDate><guid>https://thedaltonfarm.com/blog/aadconnectresultstatus/</guid><description>&lt;p&gt;While running &lt;strong&gt;Microsoft Entra Connect Sync&lt;/strong&gt;, I encountered a persistent configuration error that refused to clear:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Retrying this operation may help resolve the issue.”&lt;br&gt;
+&lt;em&gt;(Spoiler: it won’t.)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description></item></channel></rss>

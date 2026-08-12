@@ -43,7 +43,7 @@
       <span class="auth-user-name">${user.displayName || user.email}</span>
       <div class="auth-user-links">
         <a id="auth-duck-support" href="${BACKEND_URL}/private/duck-support" class="auth-duck-support-link">Duck Support</a>
-        <a href="${BACKEND_URL}/auth/logout" class="auth-logout-button">Sign out</a>
+        <a href="${BACKEND_URL}/auth/logout?return=${encodeURIComponent(window.location.origin)}" class="auth-logout-button">Sign out</a>
       </div>
     `;
   }
