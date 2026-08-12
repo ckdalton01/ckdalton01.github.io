@@ -1,31 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>PatchMyPC on DaltonFarm0</title>
-		<link>https://ckdalton01.github.io/tags/patchmypc/</link>
-		<description>Recent content in PatchMyPC on DaltonFarm0</description>
-		<generator>Hugo</generator>
-		<language>en-us</language>
-		
-		
-		
-		
-			<lastBuildDate>Thu, 20 Nov 2025 10:51:30 -0700</lastBuildDate>
-		
-			<atom:link href="https://ckdalton01.github.io/tags/patchmypc/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Configuration Manager ADR 0x80070194 Helper Script</title>
-				<link>https://ckdalton01.github.io/blog/adr404error/</link>
-				<pubDate>Thu, 20 Nov 2025 10:51:30 -0700</pubDate>
-				<guid>https://ckdalton01.github.io/blog/adr404error/</guid>
-				<description>&lt;h1 id=&#34;the-cloud-file-provider-exited-unexpectedly&#34;&gt;The Cloud file provider exited unexpectedly&lt;/h1&gt;&#xA;&lt;h2 id=&#34;404-error--cab-file-missing&#34;&gt;404 Error – .cab File Missing&lt;/h2&gt;&#xA;&lt;p&gt;Occasionally this error appears when attempting to deploy updates: 0x80070194&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ckdalton01.github.io/Pasted%20image%2020251120194954.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is usually the result of a &lt;strong&gt;missing .cab file&lt;/strong&gt;.&#xA;If the CAB file doesn’t exist, you will be unable to download and deploy that specific update(s) where the CAB file is deleted.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Patch My PC Update Rings</title>
-				<link>https://ckdalton01.github.io/blog/patchmypcupdaterings/</link>
-				<pubDate>Mon, 27 Jan 2025 21:16:26 -0700</pubDate>
-				<guid>https://ckdalton01.github.io/blog/patchmypcupdaterings/</guid>
-				<description>&lt;h1 id=&#34;patch-my-pc-portal-update-ringsexplained&#34;&gt;Patch My PC Portal Update rings explained.&lt;/h1&gt;&#xA;&lt;p&gt;I don’t like the word “demystified” because it feels like some AI slop.&lt;/p&gt;&#xA;&lt;p&gt;These patches that are released are not like Microsoft Updates where updates are released once a month on Patch Tuesday. They are released whenever the vendor sends out the update.&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PatchMyPC on DaltonFarm0</title><link>https://thedaltonfarm.com/tags/patchmypc/</link><description>Recent content in PatchMyPC on DaltonFarm0</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 20 Nov 2025 10:51:30 -0700</lastBuildDate><atom:link href="https://thedaltonfarm.com/tags/patchmypc/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuration Manager ADR 0x80070194 Helper Script</title><link>https://thedaltonfarm.com/blog/adr404error/</link><pubDate>Thu, 20 Nov 2025 10:51:30 -0700</pubDate><guid>https://thedaltonfarm.com/blog/adr404error/</guid><description>&lt;h1 id="the-cloud-file-provider-exited-unexpectedly"&gt;The Cloud file provider exited unexpectedly&lt;/h1&gt;
+&lt;h2 id="404-error--cab-file-missing"&gt;404 Error – .cab File Missing&lt;/h2&gt;
+&lt;p&gt;Occasionally this error appears when attempting to deploy updates: 0x80070194&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://thedaltonfarm.com/Pasted%20image%2020251120194954.png" alt="image"&gt;&lt;/p&gt;
+&lt;p&gt;This is usually the result of a &lt;strong&gt;missing .cab file&lt;/strong&gt;.
+If the CAB file doesn’t exist, you will be unable to download and deploy that specific update(s) where the CAB file is deleted.&lt;/p&gt;</description></item><item><title>Patch My PC Update Rings</title><link>https://thedaltonfarm.com/blog/patchmypcupdaterings/</link><pubDate>Mon, 27 Jan 2025 21:16:26 -0700</pubDate><guid>https://thedaltonfarm.com/blog/patchmypcupdaterings/</guid><description>&lt;h1 id="patch-my-pc-portal-update-ringsexplained"&gt;Patch My PC Portal Update rings explained.&lt;/h1&gt;
+&lt;p&gt;I don’t like the word “demystified” because it feels like some AI slop.&lt;/p&gt;
+&lt;p&gt;These patches that are released are not like Microsoft Updates where updates are released once a month on Patch Tuesday. They are released whenever the vendor sends out the update.&lt;/p&gt;</description></item></channel></rss>
