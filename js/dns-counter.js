@@ -4,6 +4,9 @@
   if (path !== '/' && path !== '/index.html') return;
 
   const BACKEND_URL = window.backendURL || 'http://localhost:3000';
+  const SUPABASE_URL = window.supabaseUrl || '';
+  const SUPABASE_ANON_KEY = window.supabaseAnonKey || '';
+  const CACHE_KEY = 'dns_counter_resetAt';
   const widget = document.getElementById('dns-counter-widget');
   const numberEl = document.getElementById('dns-counter-number');
   const resetBtn = document.getElementById('dns-counter-reset');
@@ -19,15 +22,32 @@
     widget.style.display = '';
   }
 
+  // Fetch reset_at directly from Supabase — bypasses Render entirely, always available.
+  async function fetchResetAt() {
+    if (!SUPABASE_URL || !SUPABASE_ANON_KEY) return null;
+    const res = await fetch(
+      `${SUPABASE_URL}/rest/v1/dns_counter?select=reset_at&id=eq.1&limit=1`,
+      { headers: { apikey: SUPABASE_ANON_KEY, Accept: 'application/json' } }
+    );
+    if (!res.ok) return null;
+    const rows = await res.json();
+    return rows[0]?.reset_at ?? null;
+  }
+
   async function init() {
-    const [counterResult, authResult] = await Promise.allSettled([
-      fetch(`${BACKEND_URL}/api/dns-counter`),
+    // Show cached value immediately so something is visible while Supabase responds.
+    const cached = localStorage.getItem(CACHE_KEY);
+    if (cached) render(computeDays(cached));
+
+    const [resetAtResult, authResult] = await Promise.allSettled([
+      fetchResetAt(),
       fetch(`${BACKEND_URL}/auth/me`, { credentials: 'include' }),
     ]);
 
-    if (counterResult.status === 'fulfilled' && counterResult.value.ok) {
-      const data = await counterResult.value.json();
-      render(computeDays(data.resetAt));
+    if (resetAtResult.status === 'fulfilled' && resetAtResult.value) {
+      const resetAt = resetAtResult.value;
+      localStorage.setItem(CACHE_KEY, resetAt);
+      render(computeDays(resetAt));
 
       if (authResult.status === 'fulfilled' && authResult.value.ok) {
         resetBtn.style.display = '';
@@ -41,6 +61,7 @@
             });
             if (res.ok) {
               const updated = await res.json();
+              localStorage.setItem(CACHE_KEY, updated.resetAt);
               render(computeDays(updated.resetAt));
             } else if (res.status === 401) {
               resetBtn.textContent = 'Sign in to reset';
